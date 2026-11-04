@@ -301,3 +301,42 @@ body::after{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;bac
 .hero .asterisk{font-size:.3em;vertical-align:top;margin-left:.12em}
 @media(max-width:760px){.hero h1{font-size:clamp(52px,12.8vw,88px);line-height:.91;letter-spacing:-.07em}.hero .asterisk{font-size:.28em}}
 @media(max-width:380px){.hero h1{font-size:clamp(46px,12.3vw,54px);letter-spacing:-.065em}}
+
+/* Vector ornaments keep the identity consistent across mobile fonts and browsers. */
+.icon-library{position:absolute;width:0;height:0;overflow:hidden}
+.icon{display:inline-block;width:1em;height:1em;flex:none;vertical-align:-.16em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.icon-spark{fill:currentColor;stroke:none}
+.icon-play{fill:currentColor;stroke:none}
+.icon-orbit .orbit-dot{fill:currentColor;stroke:none}
+.asterisk{font-size:1em!important;width:.34em;height:.34em;color:var(--pink);vertical-align:top;margin:.04em 0 0 .12em}
+.announce-divider,.section-mark,.hero-photo-tag b,.edition-stamp b{display:inline-flex;align-items:center;justify-content:center}
+.announce-divider .icon,.section-mark .icon{width:11px;height:11px}
+.announcement a>span,.nav-cta>span,.text-link>span,.button-link>span,.footer-links .icon{display:inline-flex;align-items:center;justify-content:center}
+.announcement a .icon,.nav-cta .icon,.text-link .icon,.footer-links .icon{width:12px;height:12px}
+.button-link .icon{width:19px;height:19px}
+.hero-photo-tag b .icon{width:12px;height:12px}
+.hero-photo-sticker .icon{width:17px;height:17px}
+.hero-photo-star .icon{width:1em;height:1em}
+.card-symbol .icon{width:1em;height:1em}
+.edition-stamp b .icon{width:16px;height:16px}
+.marquee b{display:inline-flex;align-items:center;vertical-align:middle}
+.marquee b .icon{width:15px;height:15px}
+.memory-tile i{display:block;line-height:1}
+.memory-tile i .icon{width:1em;height:1em}
+.photo-grid figcaption i .icon{width:14px;height:14px}
+.album-day-two-art i .icon{width:1em;height:1em}
+.album-arrow .icon,.stream-cta .icon{width:20px;height:20px}
+.stream-play .icon{width:23px;height:23px;vertical-align:0}
+.next-shape{display:block;line-height:0}
+.next-shape .icon{width:1em;height:1em;vertical-align:0}
+.footer-links a{display:inline-flex;align-items:center;gap:5px}
+@media(max-width:760px){
+  .announcement{gap:7px}
+  .announce-divider .icon,.section-mark .icon{width:10px;height:10px}
+  .hero .asterisk{width:.34em;height:.34em;margin:.04em 0 0 .1em}
+  .hero-photo-star{font-size:clamp(30px,9vw,40px)}
+  .card-symbol{font-size:50px}
+  .memory-tile i{font-size:64px}
+  .shape-a{font-size:clamp(90px,27vw,130px)}
+  .shape-b{font-size:clamp(96px,28vw,132px)}
+}
