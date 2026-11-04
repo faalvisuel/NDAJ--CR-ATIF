@@ -410,3 +410,32 @@ body::after{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;bac
   .program-note p{flex:1 1 calc(100% - 42px);font-size:10px}
   .program-note a{margin-left:37px;font-size:8px}
 }
+
+/* Renforcer la lisibilité tactile sans changer le langage visuel du desktop. */
+@media(max-width:760px){
+  .announcement a{font-size:10px;font-weight:500}
+  .main-nav .nav-cta{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:52px;padding:12px 20px;font-size:15px;line-height:1.2}
+  .main-nav .nav-cta>span{margin:0}
+  .hero-cta{font-size:16px!important;line-height:1.2;letter-spacing:.025em;min-height:70px;padding:10px 13px 10px 20px}
+  .hero-cta .icon{width:21px;height:21px}
+  .button-link:not(.hero-cta){font-size:12px!important;line-height:1.3;min-height:54px;padding:14px 18px}
+  .registration-submit{font-size:12px!important;white-space:normal;text-align:left}
+  .program-day{padding:19px 18px 34px;box-shadow:5px 6px 0 rgba(7,37,49,.07)}
+  .program-day-top{align-items:center;gap:10px;font-size:9px;line-height:1.35;letter-spacing:.045em}
+  .program-day-top span:first-child{flex:none;white-space:nowrap}
+  .program-day-top span:last-child{max-width:68%;font-size:9px}
+  .program-day h3{font-size:clamp(42px,10vw,56px);margin:25px 0 27px}
+  .program-timeline{padding-left:16px}
+  .program-timeline li{padding:0 0 19px 10px}
+  .program-timeline li:before{left:-20px;width:8px;height:8px}
+  .program-timeline time{font-size:10px;line-height:1.35;margin-bottom:6px;color:rgba(7,37,49,.82)}
+  .program-timeline li>span{font-size:15px;line-height:1.45;max-width:38ch}
+  .program-stamp{width:39px;height:39px}
+  .program-guests-heading>p{font-size:12px;line-height:1.5}
+  .guest-card{padding-top:15px;padding-bottom:17px}
+  .guest-card>span{font-size:9px}
+  .guest-card h4{font-size:27px;line-height:.98}
+  .guest-card p{font-size:13px;line-height:1.45}
+  .program-note p{font-size:12px;line-height:1.5}
+  .program-note a{font-size:10px}
+}
