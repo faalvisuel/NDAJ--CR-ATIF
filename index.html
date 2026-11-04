@@ -15,12 +15,19 @@
   <link rel="stylesheet" href="photos.css">
 </head>
 <body>
-  <div class="announcement"><span class="dot"></span> ÉDITION 02 <span class="announce-divider">✳</span> PRÉ-INSCRIPTIONS OUVERTES <a href="#inscription">S’inscrire <span aria-hidden="true">↗</span></a></div>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="icon-spark" viewBox="0 0 48 48"><path d="m24 1.5 4.3 15 11.9-10.2-8.2 13.1 15 4.1-15 4.2 8.2 13.3-11.9-10.5-4.3 16-4.3-16L7.8 40.9 16 27.7l-15-4.2 15-4.1L7.8 6.3l11.9 10.2z"/></symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M7 5h12v12"/></symbol>
+    <symbol id="icon-orbit" viewBox="0 0 48 48"><circle cx="24" cy="24" r="13"/><ellipse cx="24" cy="24" rx="21" ry="9" transform="rotate(-32 24 24)"/><circle cx="39" cy="12" r="2.5" class="orbit-dot"/></symbol>
+    <symbol id="icon-dialogue" viewBox="0 0 48 48"><path d="M5 9.5A5.5 5.5 0 0 1 10.5 4h20A5.5 5.5 0 0 1 36 9.5v12a5.5 5.5 0 0 1-5.5 5.5H18l-9 7v-7.7a5.5 5.5 0 0 1-4-5.3zM16 37.5h18a6 6 0 0 0 6-6v-12"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M7 4.8v14.4L19 12z"/></symbol>
+  </svg>
+  <div class="announcement"><span class="dot"></span> ÉDITION 02 <span class="announce-divider" aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></span> PRÉ-INSCRIPTIONS OUVERTES <a href="#inscription">S’inscrire <span aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></a></div>
   <header class="site-header">
     <a class="wordmark" href="#accueil" aria-label="Ndajé Créatif, accueil"><img src="assets/ndaje-logo.png" alt="Ndajé Créatif"></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><b>Menu</b></button>
-    <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
-      <a href="#idee">L’idée</a><a href="#experience">L’expérience</a><a href="#phototheque">Photothèque</a><a href="#videos">Vidéos</a><a class="nav-cta" href="#inscription">S’inscrire <span>↗</span></a>
+      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+      <a href="#idee">L’idée</a><a href="#experience">L’expérience</a><a href="#phototheque">Photothèque</a><a href="#videos">Vidéos</a><a class="nav-cta" href="#inscription">S’inscrire <span aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></a>
     </nav>
   </header>
 
@@ -29,66 +36,66 @@
       <div class="hero-topline"><span>LE RENDEZ-VOUS DES ESPRITS CRÉATIFS</span><span>THIÈS · SÉNÉGAL</span></div>
       <div class="hero-copy">
         <p class="eyebrow">ON SE RETROUVE POUR CRÉER.</p>
-        <h1>Les idées<br>font <span class="outline-word">du bruit</span><span class="asterisk">✳</span></h1>
+        <h1>Les idées<br>font <span class="outline-word">du bruit</span><svg class="icon icon-spark asterisk" aria-hidden="true"><use href="#icon-spark"/></svg></h1>
         <div class="hero-bottom">
           <p>Trois jours pour apprendre, partager et imaginer la suite des métiers créatifs et numériques au Sénégal.</p>
-          <a class="button-link hero-cta" href="#inscription" aria-label="Je m’inscris à l’édition 02 de Ndajé Créatif">JE M’INSCRIS <span>↗</span></a>
+          <a class="button-link hero-cta" href="#inscription" aria-label="Je m’inscris à l’édition 02 de Ndajé Créatif">JE M’INSCRIS <span aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></a>
         </div>
       </div>
       <div class="hero-art" aria-hidden="true">
-        <div class="hero-photo-frame"><img class="hero-photo" src="assets/ndaje-groupe.jpg" alt="Les participants réunis lors de la première édition de Ndajé Créatif"><span class="hero-photo-tag">ÉDITION 01 <b>✳</b> SAINT-LOUIS</span></div>
-        <div class="hero-photo-sticker">SUÑU XAM-XAM<br>MOO ÑUY BOOLE <span>↗</span></div>
-        <div class="hero-photo-star">✳</div>
+        <div class="hero-photo-frame"><img class="hero-photo" src="assets/ndaje-groupe.jpg" alt="Les participants réunis lors de la première édition de Ndajé Créatif"><span class="hero-photo-tag">ÉDITION 01 <b aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></b> SAINT-LOUIS</span></div>
+        <div class="hero-photo-sticker">SUÑU XAM-XAM<br>MOO ÑUY BOOLE <span aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></div>
+        <div class="hero-photo-star" aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></div>
       </div>
       <div class="hero-foot"><span>INSPIRER · PARTAGER · FAIRE</span><span>01 / 02</span></div>
     </section>
 
     <section class="intro section-pad" id="idee">
-      <div class="section-label"><span>01 — POURQUOI ON SE RETROUVE</span><span>✳</span></div>
+      <div class="section-label"><span>01 — POURQUOI ON SE RETROUVE</span><span class="section-mark" aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></span></div>
       <div class="intro-grid">
         <h2>Un rendez-vous.<br><em>Mille possibles.</em></h2>
-        <div class="intro-copy"><p class="lead">Ndajé, c’est la rencontre de celles et ceux qui font. Et de celles et ceux qui veulent se lancer.</p><p>Étudiants, professionnels et passionnés partagent leurs savoir-faire et font naître de nouvelles collaborations.</p><a class="text-link" href="#experience">VOIR CE QUI NOUS RASSEMBLE <span>↘</span></a></div>
+        <div class="intro-copy"><p class="lead">Ndajé, c’est la rencontre de celles et ceux qui font. Et de celles et ceux qui veulent se lancer.</p><p>Étudiants, professionnels et passionnés partagent leurs savoir-faire et font naître de nouvelles collaborations.</p><a class="text-link" href="#experience">VOIR CE QUI NOUS RASSEMBLE <span aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></a></div>
       </div>
-      <div class="marquee" aria-label="Créer, partager, inspirer"><div>CRÉER <b>✳</b> PARTAGER <b>✳</b> INSPIRER <b>✳</b> INNOVER <b>✳</b></div></div>
+      <div class="marquee" aria-label="Créer, partager, inspirer"><div>CRÉER <b aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></b> PARTAGER <b aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></b> INSPIRER <b aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></b> INNOVER <b aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></b></div></div>
     </section>
 
     <section class="experience section-pad" id="experience">
       <div class="section-label light"><span>02 — APPRENDRE EN FAISANT</span><span>LE PROGRAMME PREND FORME</span></div>
       <div class="experience-head"><h2>Pas juste<br>des <span>paroles.</span></h2><p>Des idées, des compétences et des projets qui prennent vie.</p></div>
       <div class="experience-grid">
-        <article class="exp-card exp-pink"><span class="card-index">01 / ÉCOUTER</span><div class="card-symbol">◉</div><h3>Les conversations</h3><span class="card-bottom">PANELS · RENCONTRES · DÉBATS</span></article>
-        <article class="exp-card exp-yellow"><span class="card-index">02 / APPRENDRE</span><div class="card-symbol">✳</div><h3>Les ateliers</h3><span class="card-bottom">MASTERCLASS · TUTORATS</span></article>
-        <article class="exp-card exp-blue"><span class="card-index">03 / MONTRER</span><div class="card-symbol">↗</div><h3>Les idées en action</h3><span class="card-bottom">PITCHS · CHALLENGES · PORTFOLIOS</span></article>
+        <article class="exp-card exp-pink"><span class="card-index">01 / ÉCOUTER</span><div class="card-symbol"><svg class="icon icon-dialogue" aria-hidden="true"><use href="#icon-dialogue"/></svg></div><h3>Les conversations</h3><span class="card-bottom">PANELS · RENCONTRES · DÉBATS</span></article>
+        <article class="exp-card exp-yellow"><span class="card-index">02 / APPRENDRE</span><div class="card-symbol"><svg class="icon icon-spark" aria-hidden="true"><use href="#icon-spark"/></svg></div><h3>Les ateliers</h3><span class="card-bottom">MASTERCLASS · TUTORATS</span></article>
+        <article class="exp-card exp-blue"><span class="card-index">03 / MONTRER</span><div class="card-symbol"><svg class="icon icon-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg></div><h3>Les idées en action</h3><span class="card-bottom">PITCHS · CHALLENGES · PORTFOLIOS</span></article>
       </div>
     </section>
 
     <section class="edition section-pad" id="souvenirs">
       <div class="section-label"><span>03 — ÇA A COMMENCÉ À SAINT-LOUIS</span><span>08—10 MAI 2026</span></div>
       <div class="edition-grid">
-        <div class="edition-title"><p class="eyebrow">RETOUR SUR</p><h2>ÉDITION<br><span>01</span></h2><div class="edition-stamp">LA PREMIÈRE<br>RENCONTRE <b>✳</b></div></div>
-        <div class="edition-content"><p class="lead">Trois jours de création, de rencontres et de partage à l’ENO de Saint-Louis.</p><a class="text-link" href="https://www.unchk.sn/1ere-edition-du-ndaje-creatif-le-futur-des-metiers-creatifs-et-numerique-au-coeur-des-echanges/" target="_blank" rel="noreferrer">LIRE LE RETOUR DE L’UN-CHK <span>↗</span></a></div>
+        <div class="edition-title"><p class="eyebrow">RETOUR SUR</p><h2>ÉDITION<br><span>01</span></h2><div class="edition-stamp">LA PREMIÈRE<br>RENCONTRE <b aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></b></div></div>
+        <div class="edition-content"><p class="lead">Trois jours de création, de rencontres et de partage à l’ENO de Saint-Louis.</p><a class="text-link" href="https://www.unchk.sn/1ere-edition-du-ndaje-creatif-le-futur-des-metiers-creatifs-et-numerique-au-coeur-des-echanges/" target="_blank" rel="noreferrer">LIRE LE RETOUR DE L’UN-CHK <span aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></a></div>
       </div>
-      <div class="memory-strip" aria-label="Les thèmes de l’édition 2026"><div class="memory-tile tile-1"><span>01</span><b>IA<br>& CRÉATION</b><i>✳</i></div><div class="memory-tile tile-2"><span>02</span><b>MOTION<br>DESIGN</b><i>↗</i></div><div class="memory-tile tile-3"><span>03</span><b>PORTFOLIO<br>PRO</b><i>◉</i></div><div class="memory-tile tile-4"><span>04</span><b>DIRECTION<br>ARTISTIQUE</b><i>✳</i></div></div>
+      <div class="memory-strip" aria-label="Les thèmes de l’édition 2026"><div class="memory-tile tile-1"><span>01</span><b>IA<br>& CRÉATION</b><i aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></i></div><div class="memory-tile tile-2"><span>02</span><b>MOTION<br>DESIGN</b><i aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></i></div><div class="memory-tile tile-3"><span>03</span><b>PORTFOLIO<br>PRO</b><i aria-hidden="true"><svg class="icon icon-orbit"><use href="#icon-orbit"/></svg></i></div><div class="memory-tile tile-4"><span>04</span><b>DIRECTION<br>ARTISTIQUE</b><i aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></i></div></div>
     </section>
 
     <section class="photo-story section-pad" id="phototheque">
       <div class="section-label"><span>04 — PHOTOTHÈQUE · DES VISAGES, DES IDÉES, DES RENCONTRES</span><span>ÉDITION 01 · 2026</span></div>
       <div class="photo-story-head"><h2>Ça se vit<br><em>ensemble.</em></h2><p>Retour en images sur la première édition.</p></div>
       <div class="photo-grid">
-        <figure class="photo-main"><img src="assets/ndaje-groupe.jpg" alt="Les participants réunis lors de la première édition de Ndajé Créatif" loading="lazy"><figcaption><span>LA COMMUNAUTÉ NDAJÉ</span><b>Saint-Louis · 2026 <i>✳</i></b></figcaption></figure>
+        <figure class="photo-main"><img src="assets/ndaje-groupe.jpg" alt="Les participants réunis lors de la première édition de Ndajé Créatif" loading="lazy"><figcaption><span>LA COMMUNAUTÉ NDAJÉ</span><b>Saint-Louis · 2026 <i aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></i></b></figcaption></figure>
         <div class="photo-side">
-          <figure><img src="https://lh3.googleusercontent.com/d/1HqTrYJYAYBALj17AwGXeg8dm1MQVCFsB=w1200" alt="Une participante prend la parole pendant la rencontre" loading="lazy"><figcaption><span>PRENDRE LA PAROLE</span><b>Chaque voix compte. <i>↗</i></b></figcaption></figure>
-          <figure><img src="https://lh3.googleusercontent.com/d/1UAK0Z_zaSAnbEcKGdIxFHmqg9e8ovekw=w1200" alt="Un participant s’exprime lors d’un échange" loading="lazy"><figcaption><span>PARTAGER SON EXPÉRIENCE</span><b>Les idées circulent. <i>✳</i></b></figcaption></figure>
+          <figure><img src="https://lh3.googleusercontent.com/d/1HqTrYJYAYBALj17AwGXeg8dm1MQVCFsB=w1200" alt="Une participante prend la parole pendant la rencontre" loading="lazy"><figcaption><span>PRENDRE LA PAROLE</span><b>Chaque voix compte. <i aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></i></b></figcaption></figure>
+          <figure><img src="https://lh3.googleusercontent.com/d/1UAK0Z_zaSAnbEcKGdIxFHmqg9e8ovekw=w1200" alt="Un participant s’exprime lors d’un échange" loading="lazy"><figcaption><span>PARTAGER SON EXPÉRIENCE</span><b>Les idées circulent. <i aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></i></b></figcaption></figure>
         </div>
       </div>
       <div class="album-heading"><span>LES ALBUMS COMPLETS</span><span>JOUR 1 · JOUR 2</span></div>
       <div class="album-grid">
         <a class="album-card album-day-one" href="https://drive.google.com/drive/folders/1PyChNlTSTamgTBCdHqTo60yFja6qzguV" target="_blank" rel="noreferrer">
-          <div class="album-cover"><img src="assets/ndaje-groupe.jpg" alt=""><span class="album-number">01</span><span class="album-arrow">↗</span></div>
+          <div class="album-cover"><img src="assets/ndaje-groupe.jpg" alt=""><span class="album-number">01</span><span class="album-arrow" aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></div>
           <div class="album-meta"><div><span>ÉDITION 01 · JOUR 1</span><h3>Les premiers<br>instants.</h3></div></div>
         </a>
         <a class="album-card album-day-two" href="https://drive.google.com/drive/folders/1Uk35Wj8-nuz7ZselroIyKExA0qVextFY" target="_blank" rel="noreferrer">
-          <div class="album-cover"><div class="album-day-two-art"><span>JOUR</span><b>02</b><i>✳</i></div><span class="album-arrow">↗</span></div>
+          <div class="album-cover"><div class="album-day-two-art"><span>JOUR</span><b>02</b><i aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></i></div><span class="album-arrow" aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></div>
           <div class="album-meta"><div><span>ÉDITION 01 · JOUR 2</span><h3>Les talents<br>à l’honneur.</h3></div></div>
         </a>
       </div>
@@ -100,16 +107,16 @@
       <div class="video-grid">
         <a class="stream-card" href="https://www.youtube.com/@Ndaj%C3%A9__creatif/streams" target="_blank" rel="noreferrer" aria-label="Voir les rediffusions de l’édition précédente sur YouTube">
           <div class="stream-card-top"><span>YOUTUBE / ARCHIVES LIVE</span><span>ÉDITION 01</span></div>
-          <div class="stream-graphic"><img src="assets/ndaje-groupe.jpg" alt="Les participants de la première édition de Ndajé Créatif"><span class="stream-play" aria-hidden="true">▶</span><span class="stream-thumb-label">LES RENCONTRES · 2026</span></div>
-          <div class="stream-card-copy"><h3>Les échanges<br>continuent.</h3><span class="stream-cta">ACCÉDER AUX REPLAYS <b>↗</b></span></div>
+          <div class="stream-graphic"><img src="assets/ndaje-groupe.jpg" alt="Les participants de la première édition de Ndajé Créatif"><span class="stream-play" aria-hidden="true"><svg class="icon icon-play"><use href="#icon-play"/></svg></span><span class="stream-thumb-label">LES RENCONTRES · 2026</span></div>
+          <div class="stream-card-copy"><h3>Les échanges<br>continuent.</h3><span class="stream-cta">ACCÉDER AUX REPLAYS <b aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></b></span></div>
         </a>
       </div>
     </section>
 
     <section class="next-edition section-pad" id="edition">
-      <div class="next-shape shape-a">✳</div><div class="next-shape shape-b">↗</div>
+      <div class="next-shape shape-a" aria-hidden="true"><svg class="icon icon-spark"><use href="#icon-spark"/></svg></div><div class="next-shape shape-b" aria-hidden="true"><svg class="icon icon-orbit"><use href="#icon-orbit"/></svg></div>
       <div class="section-label"><span>06 — LA SUITE S’ÉCRIT ENSEMBLE</span><span>ÉDITION 02</span></div>
-      <div class="next-content"><p class="eyebrow">TU FAIS PARTIE DE L’HISTOIRE</p><h2>La suite ?<br><em>On la crée.</em></h2><p>Rendez-vous à Thiès. Le lieu précis reste à confirmer.</p><a class="button-link" href="#inscription">ME PRÉ-INSCRIRE <span>↘</span></a><small>THIÈS · LIEU À CONFIRMER</small></div>
+      <div class="next-content"><p class="eyebrow">TU FAIS PARTIE DE L’HISTOIRE</p><h2>La suite ?<br><em>On la crée.</em></h2><p>Rendez-vous à Thiès. Le lieu précis reste à confirmer.</p><a class="button-link" href="#inscription">ME PRÉ-INSCRIRE <span aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></a><small>THIÈS · LIEU À CONFIRMER</small></div>
       <div class="next-bottom"><span>SUÑU XAM-XAM MOO ÑUY BOOLE</span><span>NDajé CRÉATIF © 2026</span></div>
     </section>
 
@@ -128,13 +135,13 @@
         <label class="registration-honeypot" aria-hidden="true">Ne pas remplir<input name="website" tabindex="-1" autocomplete="off"></label>
         <label class="registration-consent"><input type="checkbox" name="consent" value="true" required><span>J’accepte que l’équipe Ndajé utilise ces informations pour gérer ma pré-inscription, préparer l’événement et me recontacter à ce sujet.</span></label>
         <p class="registration-privacy">Ces informations sont réservées à l’organisation de Ndajé.</p>
-        <button class="button-link registration-submit" type="submit">ENVOYER MA PRÉ-INSCRIPTION <span>↗</span></button>
+        <button class="button-link registration-submit" type="submit">ENVOYER MA PRÉ-INSCRIPTION <span aria-hidden="true"><svg class="icon icon-arrow"><use href="#icon-arrow"/></svg></span></button>
         <p class="registration-status" role="status" aria-live="polite"></p>
       </form>
     </section>
   </main>
 
-  <footer class="site-footer"><a class="wordmark" href="#accueil" aria-label="Ndajé Créatif, accueil"><img src="assets/ndaje-logo.png" alt="Ndajé Créatif"></a><p>Créer aujourd’hui.<br>Imaginer demain.</p><div class="footer-links"><a href="https://www.instagram.com/ndajecreatif/" target="_blank" rel="noreferrer">INSTAGRAM ↗</a><a href="https://www.linkedin.com/company/ndaje-cr%C3%A9atif" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://www.youtube.com/@Ndaj%C3%A9__creatif/streams" target="_blank" rel="noreferrer">YOUTUBE ↗</a></div></footer>
+  <footer class="site-footer"><a class="wordmark" href="#accueil" aria-label="Ndajé Créatif, accueil"><img src="assets/ndaje-logo.png" alt="Ndajé Créatif"></a><p>Créer aujourd’hui.<br>Imaginer demain.</p><div class="footer-links"><a href="https://www.instagram.com/ndajecreatif/" target="_blank" rel="noreferrer">INSTAGRAM <svg class="icon icon-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg></a><a href="https://www.linkedin.com/company/ndaje-cr%C3%A9atif" target="_blank" rel="noreferrer">LINKEDIN <svg class="icon icon-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg></a><a href="https://www.youtube.com/@Ndaj%C3%A9__creatif/streams" target="_blank" rel="noreferrer">YOUTUBE <svg class="icon icon-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div></footer>
   <script src="signup-config.js"></script>
   <script src="script.js"></script>
 </body>
